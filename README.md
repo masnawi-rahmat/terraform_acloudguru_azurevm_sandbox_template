@@ -1,7 +1,7 @@
 # work-in-progress
 # terraform_template_azurevm_in_acloudguru_sandbox
 # a terraform template to create an ubuntu 20.04 lts azure vm in acloudguru sandbox
-# for the template to work (tested working environment), it is assumed that you have:
+# for the template to work (in a tested working environment), it is assumed that you have:
 # (1) an acloudguru account that gives you access to acloudguru sandbox
 # (2) local windows wsl ubuntu 20.04 lts terminal to run terraform commands
 # (3) local windows vsc linked to wsl ubuntu 20.04 lts to preview (and amend) terraform template
@@ -23,4 +23,4 @@
 # Error: A resource with the ID "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/x-xxxxxxxx-playground-sandbox" already exists - to -cont'below 
 # be managed via Terraform this resource needs to be imported into the State. Please see the resource documentation for "azurerm_resource_group" for more information.
 # (10) login again into azure internet browser session (with the earlier user and password credentials) to confirm that your resources have been created
-# feel free to de-construct and re-construct the template and improve the same by collabrating to develop a shared knowledge pool
+# feel free to de-construct and re-construct the template and improve on the same by collaborating with the view of developing a shared knowledge pool
