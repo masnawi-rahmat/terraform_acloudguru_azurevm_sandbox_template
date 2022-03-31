@@ -1,6 +1,6 @@
 # work-in-progress
 # terraform_template_azurevm_in_acloudguru_sandbox
-# a terraform template to create an ubuntu 20.04 lts azure vm in acloudguru sandbox
+# a terraform template to deploy an ubuntu 20.04 lts azure vm in acloudguru sandbox
 # for the template to work (in a tested working environment), it is assumed that you have:
 # (1) an acloudguru account that gives you access to acloudguru sandbox
 # (2) local windows wsl ubuntu 20.04 lts terminal to run terraform commands
