@@ -16,7 +16,8 @@
 # (5) paste the copied resource group name eg. x-xxxxxxxx-playground-sandbox into the relevant field in the variables.tf file (using vsc for convenience)
 # (6) run the command "az login --allow-no-subscriptions" in your local windows wsl ubuntu 20.04 lts terminal
 # (7) enter the user and password (ie. generated earlier by acloudguru sandbox) after you are automatically directed to the azure internet browser session
-# (8) run the usual terraform commands your local wsl ubuntu 20.04 lts - 'fmt', 'validate', 'plan' and 'apply' (and lastly, after proceeding to step no. 10, 'destroy')
+# (8) run the usual terraform commands in your local wsl ubuntu 20.04 lts - 'fmt', 'validate', 'plan' and 'apply' (and lastly, after proceeding to -cont'below
+# step no. 10 herein, 'destroy')
 # (9) you can ignore the error if you were to encounter one - -cont'below 
 # Error: A resource with the ID "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/x-xxxxxxxx-playground-sandbox" already exists - to -cont'below 
 # be managed via Terraform this resource needs to be imported into the State. Please see the resource documentation for "azurerm_resource_group" for more information.
