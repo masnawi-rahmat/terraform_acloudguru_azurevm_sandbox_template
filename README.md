@@ -6,7 +6,7 @@
 # (2) local windows wsl ubuntu 20.04 lts terminal to run terraform commands
 # (3) local windows vsc linked to wsl ubuntu 20.04 lts to preview (and amend) the terraform template
 # (4) and more importantly, no evil intention to 'abuse' the acloudguru sandbox 
-# if you run into dns issues when running terraform apply command, please see https://github.com/microsoft/WSL/issues/8022 and follow the -cont'below
+# if you run into dns issues when running terraform 'apply' command, please see https://github.com/microsoft/WSL/issues/8022 and follow the -cont'below
 # recommendations/steps therein to troubleshoot your local wsl ubuntu 20.04 lts
 # steps to create azure vm in acloudguru sandbox:
 # (1) login to you acloudguru account and navigate to acloudguru sandbox (ie https://learn.acloud.guru/cloud-playground/cloud-sandboxes)
