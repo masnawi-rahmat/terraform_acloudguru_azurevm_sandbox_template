@@ -19,7 +19,7 @@
 # (7) enter the user and password (ie. generated earlier by acloudguru sandbox) after you are automatically directed to the azure internet browser session
 # (8) run the usual terraform commands in your local wsl ubuntu 20.04 lts - 'fmt', 'validate', 'plan' and 'apply' (and lastly, after proceeding to -cont'below
 # step no. 10 herein, 'destroy')
-# (9) you can ignore the error if you were to encounter one - -cont'below 
+# (9) you can ignore this error if you were to encounter it - -cont'below 
 # Error: A resource with the ID "/subscriptions/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx/resourceGroups/x-xxxxxxxx-playground-sandbox" already exists - to -cont'below 
 # be managed via Terraform this resource needs to be imported into the State. Please see the resource documentation for "azurerm_resource_group" for more information.
 # (10) login again into azure internet browser session (with the earlier user and password credentials) to confirm that your resources have been created
