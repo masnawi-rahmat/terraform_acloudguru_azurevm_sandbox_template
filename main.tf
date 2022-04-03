@@ -1,10 +1,14 @@
+# terraform_template_azurevm_in_acloudguru_sandbox
+# this terraform is created by masnawi rahmat
+# in Generation SG/Temasek Poly SGUPMSCT Cloud Support and DevOps Bootcamp cohort no 4 Yr 2022
+# this terraform is created with learning purpose more than optimisation in mind
 # note: 
 # (1) unless necessary, make the required changes only in the accompanying variables.tf file
-# (2) a reference to a resource module comes in pair eg. "azurerm_resource_group" "main" - -cont'below
+# (2) a reference to a resource module comes in a pair eg. "azurerm_resource_group" "main" - -cont'below
 # "azurerm_resource_group" is the name of the module that comes with set perimeters -cont'below
 # and "main" is just a label of your choice but must be unique when the same module -cont'below
 # is subsequently invoked in the same main.tf file
-# (3) please do not 'abuse' the acloudguru sandbox  
+# (3) please do not use this template to 'abuse' the acloudguru sandbox  
 
 # ---cloud provider block----
 terraform {
