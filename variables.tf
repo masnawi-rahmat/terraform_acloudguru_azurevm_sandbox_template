@@ -1,3 +1,8 @@
+# terraform_template_azurevm_in_acloudguru_sandbox
+a terraform template to deploy an ubuntu 20.04 lts azure vm in acloudguru sandbox
+# this terraform is created by masnawi rahmat
+# in Generation SG/Temasek Poly SGUPMSCT Cloud Support and DevOps Bootcamp cohort no 4 Yr 2022
+# this terraform is created with learning purpose more than optimisation in mind
 # note:
 # (1) description is only a label not interpreted by terraform 
 # (2) default is a set value which is interpreted by terraform 
@@ -6,7 +11,7 @@
 variable "resource_group_name" {
   description = "generated resource group name" # insert the acloudguru system generated resource group name -cont'below
   # [eg. x-xxxxxxxx-playground-sandbox]
-  default     = "1-6e5c194b-playground-sandbox"
+  default     = "x-xxxxxxxx-playground-sandbox"
 }
 
 variable "resource_group_location" {
