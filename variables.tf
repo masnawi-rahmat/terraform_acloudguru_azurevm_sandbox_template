@@ -126,6 +126,6 @@ variable "disable_authentication" {
 
 variable "admin_user_password" {
   description = "set the default password for admin_user" # insert default password of your choice to access vm -cont'below
-  # and only activated if 'disable_authentication' in the 'admin user login account specs' is set to 'false' 
+  # and this variable is only activated if 'disable_authentication' in the 'admin user login account specs' is set to 'false' 
   default = "password1234"
 }
